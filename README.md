@@ -1,7 +1,22 @@
-We have google cloud fucntions for making api endpoint in ecommerce
-In this we have used heroku for making api endpi
-frontend is contected with backend with api and backend is connected with database with api
-we have connected heroku to backend using cli
+Lifecycle method= things which can be updated anytime by user like addtocart(cart value) ,likes etc.
+And the differnce between class and fucntional is that class component is used for handling lifecycle which functional cant handle;
+But nowadays hooks are used for handling lifecycles and we have used useeffect for handling(updating) those things
+eg1-: useeffect(add info to the cart of the item clicked,[whenver addtocart gets clicked])
+eg2-: useeffect(If(user just logged in/already logged in){update the whole app.js(whole website) with his previos orders and his name on home page}
+               else{update the home page with hello guest}     ,                            [])(do this when this page loads (nothing in array means whenever this page loads)
+
+
+
+
+In ecommerce site we have used google cloud fucntions for making api endpoint.
+In videostudies we have used heroku for making api endpoint
+Api endpoint = URL which makes a special request to database. 
+In backend web app api endpoint are named and defined that what request they will make to database on calling. eg-: /newuserKoAddKaro/.post= add new user info in database
+In frontend web app we use use that url to make request with 
+
+We make url/api endpoint by giving a special name to it (any type of name)and defining what it will request to database when called.(BUT WE CANT MAKE REQUEST FROM BACKEND)
+eg-: /
+
 we make api endpoint url and through that endpoint url we make requests(get,post) to api endpoint(specific place in server for a specific data)
 
 
