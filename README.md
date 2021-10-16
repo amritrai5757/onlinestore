@@ -1,3 +1,8 @@
+To study about serverless hosting
+
+
+
+
 Firebase is used as realtime database
 Context api and props is used to share data.
 we are deploying express api on firebase cloud 
