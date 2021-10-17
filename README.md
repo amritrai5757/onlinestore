@@ -1,6 +1,6 @@
-To study about serverless hosting
 
 
+Functional component is stateless component.Manages only static things like-: product info/disclamer/ui of app .But we use hooks like usestate.useeffect,usereducer to make it stateful component.
 
 
 Firebase is used as realtime database
