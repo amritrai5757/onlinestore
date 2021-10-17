@@ -1,10 +1,4 @@
-
-
-Functional component is stateless component.Manages only static things like-: product info/disclamer/ui of app .But we use hooks like usestate.useeffect,usereducer to make it stateful component.
-
-
 Firebase is used as realtime database
-Context api and props is used to share data.
 we are deploying express api on firebase cloud 
 we have used firebase authentication (auth) for creating new ac using email and password/sign in and stored all the info of email and password in firestore to sign in whenever user comes again
 
@@ -23,10 +17,11 @@ src folder is used for making frontend and in functions folder we have made back
 function is backend and src is frontend
 
 In ecommerce site we have used google cloud fucntions for making api endpoint.
+
 Used Context api(hook) is used to avoid prop drilling(passing data from one part to another by going through several other parts that dont require that data
 
-Used usestate & usereducer inside functional component for managing and updating state like items added in cart.
+Used usestate & usereducer inside functional component for managing and updating state like items added/removed from cart rather than using class component.
 
-Used useeffect for managing side effects like 
+Used useeffect for managing side effects like, if item added/removed from cart request a new key for the total amount for payment from stripe. 
 
 Used React Router for making single page web app(doesnt require reloading for going to different page).  Used 'links' for linking different buttons to redirect to desired page. 
