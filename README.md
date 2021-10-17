@@ -23,3 +23,17 @@ src folder is used for making frontend and in functions folder we have made back
 function is backend and src is frontend
 
 In ecommerce site we have used google cloud fucntions for making api endpoint.
+Used Context api(hook) is used to avoid prop drilling(passing data from one part to another by going through several other parts that dont require that data
+
+Whichever component is changing/rerendring in frontend by user's action like clicking,post requesting(changing data in database) is a stateful component.
+ eg-: no of items in cart,user name showcase when signed in,recent orders.
+ Class component is stateful component manages dynamic things.(nowadays everybody use hooks rather than class component)
+Functional component is stateless component.Manages only static things like-: product info/disclamer/ui of app .But we use hooks like usestate.useeffect,usereducer to make it stateful component.
+There are 2 ways to make stateful component -:using class component, using hooks in the functional component
+
+eg1-: useeffect(add info to the cart of the item clicked,[whenver addtocart gets clicked])
+eg2-: useeffect(If(user just logged in/already logged in){update the whole app.js(whole website) with his previos orders and his name on home page}
+               else{update the home page with hello guest}     ,                            [])(do this when this page loads (nothing in array means whenever this page loads)
+
+
+
