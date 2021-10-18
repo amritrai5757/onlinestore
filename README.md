@@ -1,27 +1,18 @@
 Firebase is used as realtime database
-we are deploying express api on firebase cloud 
-we have used firebase authentication (auth) for creating new ac using email and password/sign in and stored all the info of email and password in firestore to sign in whenever user comes again
+wxpress is also deployed on firebase cloud 
 
-we have build checkout/payment page with stripe frontend
+Used firebase authentication (auth) for creating new ac using email and password/sign in and stored all the info of email and password in firestore to sign in whenever user comes again.
 
-We have build a cloud function(serverless function)( backend) to process the stripe payment
+Used "firestore" database which is a nosql & schemaless database. All the data is stored in collection & document form, in which each document stores data in mapped form(key value form).
 
-when we enter card details and then hit buy now then what happens is-:
-Our website will push all the cart information to stripe.
-Stripe will create payment for it
-Stripe will push all information to the database attached to that particular user
+We have build an express backend and hosted it on cloud function
 
-we used "firestore" database which is a nosql database
-We have build an express backend and host it on cloud function
-src folder is used for making frontend and in functions folder we have made backend (cloud function)
-function is backend and src is frontend
+In ecommerce site we have used google cloud fucntions
 
-In ecommerce site we have used google cloud fucntions for making api endpoint.
+Used Context api(hook) is used to avoid prop drilling(passing data from one part to another by going through several other parts that dont require that data).
 
-Used Context api(hook) is used to avoid prop drilling(passing data from one part to another by going through several other parts that dont require that data
+Used usestate & usereducer inside functional component for managing and updating state like product(id,img,title) added/removed from cart,incresing/decresing cart value by items added rather than using class component. 
 
-Used usestate & usereducer inside functional component for managing and updating state like items added/removed from cart rather than using class component.
-
-Used useeffect for managing side effects like, if item added/removed from cart request a new key for the total amount for payment from stripe. 
+Used useeffect for managing lifecycle methods/side effect(updating/rendering external variable due to local changing) like, if item added/removed from cart request a new key for the total amount for payment from stripe. 
 
 Used React Router for making single page web app(doesnt require reloading for going to different page).  Used 'links' for linking different buttons to redirect to desired page. 
