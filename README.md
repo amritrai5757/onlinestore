@@ -15,7 +15,7 @@ Used React Router for making single page web app(doesnt require reloading for go
 
 Used useeffect for managing lifecycle methods/side effect like, if item added/removed from cart then, request a new key for the total amount for payment from stripe.
 
-Used Context api(hook) is used to avoid prop drilling(passing data from one part to another by going through several other parts that dont require that data). 
+Used Context api(hook) to avoid prop drilling(passing data from one part to another by going through several other parts that dont require that data). 
 eg-: made product info(server) for (client)addtocart/removetocart functionality of usestate/usereducer.
 
 .
