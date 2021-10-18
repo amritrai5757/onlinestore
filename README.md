@@ -5,7 +5,7 @@ Used firebase authentication (auth) for creating new ac using email and password
 
 Used "firestore" database which is a nosql & schemaless database. All the data is stored in collection & document form, in which each document stores data in mapped form(key value form).
 
-We have build an express backend and hosted it on cloud function
+We have build a cloud functions hosted on google cloud 
 In ecommerce site we have used google cloud fucntions
 
 
