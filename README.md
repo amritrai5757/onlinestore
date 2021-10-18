@@ -1,15 +1,10 @@
-Firebase is used as realtime database
-wxpress is also deployed on firebase cloud 
+Built react app(client/frontend) which is hosted on firebase.
 
-Used firebase authentication (auth) for creating new ac using email and password/sign in and stored all the info of email and password in firestore to sign in whenever user comes again.
+Built express app(server) along with cloud funtions(serverless framework i.e,automatic scaling of server when needed) hosted on google cloud.
 
-Used "firestore" database which is a nosql & schemaless database. All the data is stored in collection & document form, in which each document stores data in mapped form(key value form).
+Used firestore(nosql,schemaless database) hosted on cloud.
 
-We have build a cloud functions hosted on google cloud 
-In ecommerce site we have used google cloud fucntions
-
-
-
+Used firebase authentication for user authentication.
 
 Used React Router for making single page web app(doesnt require reloading for going to different page).  Used 'links' for linking different buttons to redirect to desired page.
 
