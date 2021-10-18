@@ -18,10 +18,8 @@ Used Context api(hook) to avoid prop drilling(passing data from one part to anot
 eg-: made product info(server) for (client)addtocart/removetocart functionality of usestate/usereducer.
 
 
-Used usestate & usereducer inside functional component rather than using class component for managing and updating state like cart .
-
+Used usestate & usereducer inside functional component rather than using class component for managing and updating state like cart   .
 eg-:(when user clicks addtobasket it add the the product img,price,etc reated to that particular button to cart array(cart is array of map) ,if clicked remove delete that product img,tile,etc from basket/cart array) , incresing/decresing cart value by items added .
-
 [  [product name(key)=(value),[product img=(value),etc]  ,   [product name(key)=(value),[product img=(value),etc],etc]
 
 Used useeffect for managing lifecycle methods/side effect like, if item added/removed from cart then, request a new key for the total amount for payment from stripe.
