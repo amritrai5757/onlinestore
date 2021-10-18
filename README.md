@@ -19,7 +19,7 @@ eg-: made product info(server) for (client)addtocart/removetocart functionality 
 
 
 Used usestate & usereducer inside functional component rather than using class component for managing and updating state like cart array.
-eg-:(when user clicks addtobasket it add the the product img,price,etc reated to that particular button to cart array(cart is array of map) ,if clicked remove delete that product img,tile,etc from basket/cart array) .
-[  [product name(key)=(value),[product img=(value),etc]  ,   [product name(key)=(value),[product img=(value),etc],etc]
+eg-:When user clicks addtobasket it add the the product img,price,etc reated to that particular button to cart array(cart is array of map) ,if clicked remove delete that product img,tile,etc from basket/cart array) .
+[  [product name(key)=(value),[product img=(value)]  ,   [product name(key)=(value),[product img=(value)]   ]
 
 Used useeffect for managing lifecycle methods/side effect like, if item added/removed from cart then, request a new key for the total amount for payment from stripe.
