@@ -11,8 +11,8 @@ In ecommerce site we have used google cloud fucntions
 
 Used Context api(hook) is used to avoid prop drilling(passing data from one part to another by going through several other parts that dont require that data).
 
-Used usestate & usereducer inside functional component for managing and updating state like product(id,img,title) added/removed from cart,incresing/decresing cart value by items added rather than using class component. 
+Used usestate & usereducer inside functional component for managing and updating state like product(id->price,img,title) added/removed from cart collection,incresing/decresing cart value by items added rather than using class component. 
 
-Used useeffect for managing lifecycle methods/side effect(updating/rendering external variable due to local changes) like, if item added/removed from cart request a new key for the total amount for payment from stripe. 
+Used useeffect for managing lifecycle methods/side effect(updating/rendering external variables due to local changes) like, if item added/removed from cart request a new key for the total amount for payment from stripe. 
 
 Used React Router for making single page web app(doesnt require reloading for going to different page).  Used 'links' for linking different buttons to redirect to desired page. 
