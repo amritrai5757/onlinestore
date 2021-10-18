@@ -6,13 +6,21 @@ Used firebase authentication (auth) for creating new ac using email and password
 Used "firestore" database which is a nosql & schemaless database. All the data is stored in collection & document form, in which each document stores data in mapped form(key value form).
 
 We have build an express backend and hosted it on cloud function
-
 In ecommerce site we have used google cloud fucntions
 
-Used Context api(hook) is used to avoid prop drilling(passing data from one part to another by going through several other parts that dont require that data).
 
-Used usestate & usereducer inside functional component for managing and updating state like product(id->price,img,title) added/removed from cart collection,incresing/decresing cart value by items added rather than using class component. 
 
-Used useeffect for managing lifecycle methods/side effect(updating/rendering external variables due to local changes) like, if item added/removed from cart request a new key for the total amount for payment from stripe. 
 
-Used React Router for making single page web app(doesnt require reloading for going to different page).  Used 'links' for linking different buttons to redirect to desired page. 
+Used React Router for making single page web app(doesnt require reloading for going to different page).  Used 'links' for linking different buttons to redirect to desired page.
+
+Used useeffect for managing lifecycle methods/side effect like, if item added/removed from cart then, request a new key for the total amount for payment from stripe.
+
+Used Context api(hook) is used to avoid prop drilling(passing data from one part to another by going through several other parts that dont require that data). 
+
+eg-: made product info(server) for (client)addtocart/removetocart functionality of usestate/usereducer.
+
+.
+
+Used usestate & usereducer inside functional component rather than using class component for managing and updating state like cart array.
+
+eg-:(when user clicks addtobasket add that product's img,title,price etc to cart array ,if clicked remove delete that product img,tile,etc from basket/cart array) , incresing/decresing cart value by items added . 
