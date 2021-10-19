@@ -13,6 +13,7 @@ Used React Router for making single page web app(doesnt require reloading for go
 Used Context api(hook) to avoid prop drilling(passing data from one part to another by going through several other parts that dont require that data). 
 eg-: made product info(server) for (client)addtocart/removetocart functionality of usestate/usereducer.
 
+Used stripe server and frontend for payment process.
 
 Used usestate & usereducer inside functional component rather than using class component for managing and updating state like cart array.
 eg-:When user clicks addtobasket it add the the product img,price,etc reated to that particular button to cart array(cart is array of map) ,if clicked remove delete that product img,tile,etc from basket/cart array) .
