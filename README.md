@@ -1,4 +1,7 @@
-https://user-images.githubusercontent.com/86003701/137842190-93f5a018-8845-4957-8fe4-e4917ee0bc62.mp4
+
+
+
+https://user-images.githubusercontent.com/86003701/137842376-e419cafc-11d0-43a4-8579-79422b61a2fc.mp4
 
 Built express app(server) along with cloud funtions(serverless framework i.e,automatic scaling of server when needed) hosted on google cloud.
 
