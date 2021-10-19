@@ -1,4 +1,4 @@
-.
+https://user-images.githubusercontent.com/86003701/137864828-54d7fc0d-7e2b-436e-ab20-26318f566041.mp4
 
 Built express app(server) along with cloud funtions(serverless framework i.e,automatic scaling of server when needed) hosted on google cloud.
 
@@ -19,3 +19,9 @@ eg-:When user clicks addtobasket it add the the product img,price,etc reated to 
 Used useeffect for managing lifecycle methods/side effect like, if item added/removed from cart then, request a new key for the total amount for payment from stripe.
 
 Built an rest api in express app(server) with firestore database which is used by react app(client,frontend)🤍🤍
+
+
+
+
+
+
