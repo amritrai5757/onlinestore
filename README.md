@@ -13,7 +13,7 @@ eg-: made product info(server) for (client)addtocart/removetocart functionality 
 Used stripe server and frontend for payment process.
 
 Used usestate & usereducer inside functional component rather than using class component for managing a state ,i.e, managing single components like array(cart array) (when to add/remove things from cart array),integer(no of items in cart)(when its value will be increased/decreased).
-eg-:When user clicks addtobasket ,it add the img,price,etc of the product inside which the addtobasket button is present ,i.e,[product(button)]. cart array ,if clicked remove delete that product's img,tile,etc from basket/cart array) .
+eg-:When user clicks addtobasket, the onClick function inside product component adds product's(img,price,etc)to array(cart),i.e,[product(onclick,img,price,etc)]. If same product's id already present in array it increases the count of that product rather than adding another time. Similarly if u delete a product it removes from the array(cart).
 
 [  [product name(key)=(value),[product img=(value)]  ,   [product name(key)=(value),[product img=(value)]   ]
 
