@@ -4,6 +4,7 @@ Built express app(server) along with cloud funtions(serverless framework i.e,aut
 
 Used firebase authentication for user authentication.
 
+Built a single page web app in which every page is stored as component.
 Used React Router for making single page web app(doesnt require reloading for going to different page).  Used 'links' for linking different buttons to redirect to desired page.
 
 Used Context api(hook) to avoid prop drilling(passing data from one part to another by going through several other parts that dont require that data). 
