@@ -1,5 +1,14 @@
 https://user-images.githubusercontent.com/86003701/137864828-54d7fc0d-7e2b-436e-ab20-26318f566041.mp4
 
+• Frontend=React app(deployed on firebase).
+• Backend=Express app(deployed on google cloud), Stripe payment gateway.
+• Database=Firestore(schemaless, nosql & serverless).
+• Used Stripe payment gateway for payment using cards in frontend and backend.
+• Used firebase auth for signup and login of users.
+• Used firestore to store order details with timings & fetch that data to show the order history.
+
+
+# More details-:
 Built express app(server) along with cloud funtions(serverless framework i.e,automatic scaling of server when needed) hosted on google cloud.
 
 Used firebase authentication for user authentication.
