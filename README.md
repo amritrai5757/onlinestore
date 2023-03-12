@@ -28,3 +28,15 @@ Using DOM structure it is easier to customize html things using js
 [  [product name(key)=(value),[product img=(value)]  ,   [product name(key)=(value),[product img=(value)]   ]
 
 Used useeffect for managing side effect (lifecycle methods) like, if item added/removed from cart then, request a new key for the total amount for payment from stripe.
+
+RETURNS VALUE WHERE IT STOPS CHECKING
+
+var x = 220;
+var y = "Hello";
+var z = undefined;
+        
+x | | y    // Returns 220 since the first value is truthy
+        
+x | | z   // Returns 220 since the first value is truthy
+        
+x && y    // Returns "Hello" since both the values are truthy
