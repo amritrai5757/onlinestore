@@ -16,6 +16,7 @@ Used React Router for making single page web app(doesnt require reloading for go
 Used Context api(hook) to avoid prop drilling(passing data from one part to another by going through several other parts that dont require that data). 
 eg-: made product info(server) for (client)addtocart/removetocart functionality of usestate/usereducer.
 
+DOM : stucture of webpage with html in form of tree to easily customize the buttons etc using js & css
 
 Used usestate & usereducer inside functional component rather than using class component for managing a state i,e managing something inside DOM(basic document structure of webpage using html like button)  that is dynamicly changing ,i.e, managing single components like array(cart array) (when to add/remove things from cart array),integer(no of items in cart)(when its value will be increased/decreased).
 eg-:When user clicks addtobasket, the onClick function inside product component adds product's(img,price,etc)to array(cart),i.e,[product(onclick,img,price,etc)]. If same product's id already present in array it increases the count of that product rather than adding another time. Similarly if u delete a product it removes from the array(cart).
