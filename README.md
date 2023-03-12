@@ -20,6 +20,8 @@ eg-: made product info(server) for (client)addtocart/removetocart functionality 
 Used usestate & usereducer inside functional component rather than using class component for managing a state i,e managing something inside DOM(basic document structure of webpage using html like button)  that is dynamicly changing ,i.e, managing single components like array(cart array) (when to add/remove things from cart array),integer(no of items in cart)(when its value will be increased/decreased).
 eg-:When user clicks addtobasket, the onClick function inside product component adds product's(img,price,etc)to array(cart),i.e,[product(onclick,img,price,etc)]. If same product's id already present in array it increases the count of that product rather than adding another time. Similarly if u delete a product it removes from the array(cart).
 
+Using DOM structure it is easier to customize html things using js
+
 [  [product name(key)=(value),[product img=(value)]  ,   [product name(key)=(value),[product img=(value)]   ]
 
 Used useeffect for managing side effect (lifecycle methods) like, if item added/removed from cart then, request a new key for the total amount for payment from stripe.
