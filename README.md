@@ -4,7 +4,7 @@ https://user-images.githubusercontent.com/86003701/137864828-54d7fc0d-7e2b-436e-
 
 • Used Firestore database(schemaless,nosql)to store order details with timings to have orderhistory
 
-• Used Stripe for taking card details in frontend & making payment using that card details in backend.
+• Used Stripe for taking card details in frontend & making payment using that card details in backend without any crud(no post,get etc) operations since we are just making a https request to stripe
 
 • Used firebase auth for signup and login process of users.
 
